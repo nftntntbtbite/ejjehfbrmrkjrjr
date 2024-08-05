@@ -1,0 +1,449 @@
+
+ALNew_2 = Instance.new('ScreenGui')
+ALNew_2.Name = 'AudioLoggerNew'
+
+PopupFrame_3 = Instance.new('Frame', ALNew_2)
+PopupFrame_3.Name = 'PopupFrame'
+PopupFrame_3.Active = true
+PopupFrame_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+PopupFrame_3.BorderColor = BrickColor.new('Really black')
+PopupFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PopupFrame_3.BorderSizePixel = 0
+PopupFrame_3.Position = UDim2.new(0.500000, -180.000000, 0.500000, -50.000000)
+PopupFrame_3.Size = UDim2.new(0.000000, 360.000000, 0.000000, 20.000000)
+PopupFrame_3.ZIndex = 2
+
+UICorner_15 = Instance.new('UICorner', PopupFrame_3)
+UICorner_15.Name = 'UICorner'
+
+PopupFrame_3 = Instance.new('Frame', PopupFrame_3)
+PopupFrame_3.Name = 'PopupFrame'
+PopupFrame_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+PopupFrame_3.BorderColor = BrickColor.new('Really black')
+PopupFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PopupFrame_3.BorderSizePixel = 0
+PopupFrame_3.ClipsDescendants = true
+PopupFrame_3.Size = UDim2.new(0.000000, 360.000000, 0.000000, 260.000000)
+
+AutoScan_2 = Instance.new('TextButton', PopupFrame_3)
+AutoScan_2.Name = 'AutoScan'
+AutoScan_2.Font = Enum.Font.SourceSans
+AutoScan_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+AutoScan_2.FontSize = Enum.FontSize.Size14
+AutoScan_2.Text = 'Auto Scan'
+AutoScan_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoScan_2.TextSize = 14
+AutoScan_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+AutoScan_2.BorderSizePixel = 0
+AutoScan_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 228.000000)
+AutoScan_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', AutoScan_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+SoundS_2 = Instance.new('TextButton', PopupFrame_3)
+SoundS_2.Name = 'SoundS'
+SoundS_2.Font = Enum.Font.SourceSans
+SoundS_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+SoundS_2.FontSize = Enum.FontSize.Size14
+SoundS_2.Text = 'SoundService'
+SoundS_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoundS_2.TextSize = 14
+SoundS_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+SoundS_2.BorderSizePixel = 0
+SoundS_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 186.000000)
+SoundS_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', SoundS_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Lighting_2 = Instance.new('TextButton', PopupFrame_3)
+Lighting_2.Name = 'Lighting'
+Lighting_2.Font = Enum.Font.SourceSans
+Lighting_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Lighting_2.FontSize = Enum.FontSize.Size14
+Lighting_2.Text = 'Lighting'
+Lighting_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lighting_2.TextSize = 14
+Lighting_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Lighting_2.BorderSizePixel = 0
+Lighting_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 165.000000)
+Lighting_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', Lighting_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+SS_2 = Instance.new('TextButton', PopupFrame_3)
+SS_2.Name = 'SS'
+SS_2.Font = Enum.Font.SourceSans
+SS_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+SS_2.FontSize = Enum.FontSize.Size14
+SS_2.Text = 'Save Selected'
+SS_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SS_2.TextSize = 14
+SS_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+SS_2.BorderSizePixel = 0
+SS_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 40.000000)
+SS_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', SS_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Logs_2 = Instance.new('ScrollingFrame', PopupFrame_3)
+Logs_2.Name = 'Logs'
+Logs_2.BottomImage = 'rbxasset://textures/blackBkg_square.png'
+Logs_2.CanvasSize = UDim2.new(0.000000, 0.000000, 0.000000, 0.000000)
+Logs_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
+Logs_2.MidImage = 'rbxasset://textures/blackBkg_square.png'
+Logs_2.ScrollBarThickness = 10
+Logs_2.TopImage = 'rbxasset://textures/blackBkg_square.png'
+Logs_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Logs_2.BorderSizePixel = 0
+Logs_2.Position = UDim2.new(0.000000, 5.000000, 0.000000, 25.000000)
+Logs_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 230.000000)
+
+Settings_2 = Instance.new('TextLabel', PopupFrame_3)
+Settings_2.Name = 'Settings'
+Settings_2.Font = Enum.Font.SourceSans
+Settings_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Settings_2.FontSize = Enum.FontSize.Size14
+Settings_2.Text = 'Settings:'
+Settings_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.TextSize = 14
+Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.BackgroundTransparency = 1
+Settings_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 20.000000)
+Settings_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+Close_3 = Instance.new('TextButton', PopupFrame_3)
+Close_3.Name = 'Close'
+Close_3.Font = Enum.Font.SourceSans
+Close_3.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Close_3.FontSize = Enum.FontSize.Size14
+Close_3.Text = 'X'
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextSize = 14
+Close_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Close_3.BorderSizePixel = 0
+Close_3.Size = UDim2.new(0.000000, 20.000000, 0.000000, 20.000000)
+Close_3.ZIndex = 2
+
+UICorner_15 = Instance.new('UICorner', Close_3)
+UICorner_15.Name = 'UICorner'
+
+ClrS_2 = Instance.new('TextButton', PopupFrame_3)
+ClrS_2.Name = 'ClrS'
+ClrS_2.Font = Enum.Font.SourceSans
+ClrS_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ClrS_2.FontSize = Enum.FontSize.Size14
+ClrS_2.Text = 'Clr Selected'
+ClrS_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClrS_2.TextSize = 14
+ClrS_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+ClrS_2.BorderSizePixel = 0
+ClrS_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 82.000000)
+ClrS_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', ClrS_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+SA_2 = Instance.new('TextButton', PopupFrame_3)
+SA_2.Name = 'SA'
+SA_2.Font = Enum.Font.SourceSans
+SA_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+SA_2.FontSize = Enum.FontSize.Size14
+SA_2.Text = 'Save All'
+SA_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SA_2.TextSize = 14
+SA_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+SA_2.BorderSizePixel = 0
+SA_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 61.000000)
+SA_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', SA_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Load_2 = Instance.new('TextButton', PopupFrame_3)
+Load_2.Name = 'Load'
+Load_2.Font = Enum.Font.SourceSans
+Load_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Load_2.FontSize = Enum.FontSize.Size14
+Load_2.Text = ''
+Load_2.TextSize = 14
+Load_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+Load_2.BorderColor = BrickColor.new('Lime green')
+Load_2.BorderColor3 = Color3.fromRGB(0, 170, 0)
+Load_2.Size = UDim2.new(0.000000, 0.000000, 0.000000, 20.000000)
+Load_2.Visible = false
+Load_2.ZIndex = 3
+
+UICorner_15 = Instance.new('UICorner', Load_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Audio_2 = Instance.new('Frame', PopupFrame_3)
+Audio_2.Name = 'Audio'
+Audio_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Audio_2.BorderSizePixel = 0
+Audio_2.ClipsDescendants = true
+Audio_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 50.000000)
+Audio_2.Visible = false
+
+AudInfo_2 = Instance.new('TextLabel', Audio_2)
+AudInfo_2.Name = 'AudInfo'
+AudInfo_2.Font = Enum.Font.SourceSans
+AudInfo_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+AudInfo_2.FontSize = Enum.FontSize.Size14
+AudInfo_2.Text = ''
+AudInfo_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AudInfo_2.TextSize = 14
+AudInfo_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AudInfo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AudInfo_2.BackgroundTransparency = 1
+AudInfo_2.BorderSizePixel = 0
+AudInfo_2.Position = UDim2.new(0.150000, 0.000000, 0.349000, 0.000000)
+AudInfo_2.Size = UDim2.new(0.000000, 200.000000, 0.000000, 30.000000)
+
+ImageButton_2 = Instance.new('ImageButton', Audio_2)
+ImageButton_2.Name = 'ImageButton'
+ImageButton_2.Image = 'rbxassetid://64942289'
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+ImageButton_2.BackgroundTransparency = 1
+ImageButton_2.BorderSizePixel = 0
+ImageButton_2.Position = UDim2.new(0.000000, 0.000000, 0.200000, 0.000000)
+ImageButton_2.Size = UDim2.new(0.000000, 30.000000, 0.000000, 30.000000)
+
+AudName_2 = Instance.new('TextLabel', Audio_2)
+AudName_2.Name = 'AudName'
+AudName_2.Font = Enum.Font.SourceSans
+AudName_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+AudName_2.FontSize = Enum.FontSize.Size14
+AudName_2.Text = 'Loading...'
+AudName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AudName_2.TextSize = 14
+AudName_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AudName_2.TextYAlignment = Enum.TextYAlignment.Top
+AudName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AudName_2.BackgroundTransparency = 1
+AudName_2.BorderSizePixel = 0
+AudName_2.Position = UDim2.new(0.245000, 0.000000, 0.000000, 0.000000)
+AudName_2.Size = UDim2.new(0.000000, 150.000000, 0.000000, 20.000000)
+
+Click_2 = Instance.new('TextButton', Audio_2)
+Click_2.Name = 'Click'
+Click_2.Font = Enum.Font.SourceSans
+Click_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Click_2.FontSize = Enum.FontSize.Size14
+Click_2.Text = ''
+Click_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Click_2.TextSize = 14
+Click_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_2.BackgroundTransparency = 1
+Click_2.BorderSizePixel = 0
+Click_2.Position = UDim2.new(0.000000, 30.000000, 0.000000, 0.000000)
+Click_2.Size = UDim2.new(0.000000, 240.000000, 1.000000, 0.000000)
+
+UICorner_15 = Instance.new('UICorner', Audio_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Workspace_2 = Instance.new('TextButton', PopupFrame_3)
+Workspace_2.Name = 'Workspace'
+Workspace_2.Font = Enum.Font.SourceSans
+Workspace_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Workspace_2.FontSize = Enum.FontSize.Size14
+Workspace_2.LocalizationMatchIdentifier = '186e5e13-32ef-4d1d-a572-d179d523dafa'
+Workspace_2.LocalizationMatchedSourceText = 'Workspace'
+Workspace_2.Text = 'Workspace'
+Workspace_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Workspace_2.TextSize = 14
+Workspace_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Workspace_2.BorderSizePixel = 0
+Workspace_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 144.000000)
+Workspace_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', Workspace_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Clr_2 = Instance.new('TextButton', PopupFrame_3)
+Clr_2.Name = 'Clr'
+Clr_2.Font = Enum.Font.SourceSans
+Clr_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Clr_2.FontSize = Enum.FontSize.Size14
+Clr_2.Text = 'Clr Unselected'
+Clr_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clr_2.TextSize = 14
+Clr_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Clr_2.BorderSizePixel = 0
+Clr_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 103.000000)
+Clr_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', Clr_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Scan_2 = Instance.new('TextLabel', PopupFrame_3)
+Scan_2.Name = 'Scan'
+Scan_2.Font = Enum.Font.SourceSans
+Scan_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Scan_2.FontSize = Enum.FontSize.Size14
+Scan_2.Text = 'Scan:'
+Scan_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scan_2.TextSize = 14
+Scan_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scan_2.BackgroundTransparency = 1
+Scan_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 124.000000)
+Scan_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+Store_2 = Instance.new('TextButton', PopupFrame_3)
+Store_2.Name = 'Store'
+Store_2.Font = Enum.Font.SourceSans
+Store_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Store_2.FontSize = Enum.FontSize.Size14
+Store_2.Text = ''
+Store_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Store_2.TextScaled = true
+Store_2.TextSize = 14
+Store_2.TextTransparency = 0.5
+Store_2.TextWrap = true
+Store_2.TextWrapped = true
+Store_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Store_2.BackgroundTransparency = 0.5
+Store_2.BorderSizePixel = 0
+Store_2.Position = UDim2.new(0.000000, 5.000000, 0.000000, 25.000000)
+Store_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 230.000000)
+Store_2.Visible = false
+
+Info_2 = Instance.new('ScrollingFrame', PopupFrame_3)
+Info_2.Name = 'Info'
+Info_2.BottomImage = 'rbxasset://textures/blackBkg_square.png'
+Info_2.CanvasSize = UDim2.new(0.000000, 0.000000, 0.000000, 0.000000)
+Info_2.MidImage = 'rbxasset://textures/blackBkg_square.png'
+Info_2.ScrollBarThickness = 10
+Info_2.TopImage = 'rbxasset://textures/blackBkg_square.png'
+Info_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Info_2.BorderSizePixel = 0
+Info_2.Position = UDim2.new(0.000000, 5.000000, 0.000000, 25.000000)
+Info_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 230.000000)
+Info_2.Visible = false
+
+Close_3 = Instance.new('TextButton', Info_2)
+Close_3.Name = 'Close'
+Close_3.Font = Enum.Font.SourceSans
+Close_3.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Close_3.FontSize = Enum.FontSize.Size14
+Close_3.Text = 'X'
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextSize = 14
+Close_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Close_3.BorderSizePixel = 0
+Close_3.Size = UDim2.new(0.000000, 20.000000, 0.000000, 20.000000)
+
+Listen_2 = Instance.new('TextButton', Info_2)
+Listen_2.Name = 'Listen'
+Listen_2.Font = Enum.Font.SourceSans
+Listen_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Listen_2.FontSize = Enum.FontSize.Size14
+Listen_2.Text = 'Listen'
+Listen_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Listen_2.TextSize = 14
+Listen_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Listen_2.BorderSizePixel = 0
+Listen_2.Position = UDim2.new(0.000000, 70.000000, 0.000000, 0.000000)
+Listen_2.Size = UDim2.new(0.000000, 50.000000, 0.000000, 20.000000)
+
+Copy_2 = Instance.new('TextButton', Info_2)
+Copy_2.Name = 'Copy'
+Copy_2.Font = Enum.Font.SourceSans
+Copy_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Copy_2.FontSize = Enum.FontSize.Size14
+Copy_2.Text = 'Copy ID'
+Copy_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy_2.TextSize = 14
+Copy_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Copy_2.BorderSizePixel = 0
+Copy_2.Position = UDim2.new(0.000000, 20.000000, 0.000000, 0.000000)
+Copy_2.Size = UDim2.new(0.000000, 50.000000, 0.000000, 20.000000)
+
+TextLabel_2 = Instance.new('TextLabel', Info_2)
+TextLabel_2.Name = 'TextLabel'
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextLabel_2.FontSize = Enum.FontSize.Size14
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrap = true
+TextLabel_2.TextWrapped = true
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(0.050000, 0.000000, 0.100000, 0.000000)
+TextLabel_2.Size = UDim2.new(0.898000, 0.000000, 0.850000, 0.000000)
+
+Loop_2 = Instance.new('TextButton', Info_2)
+Loop_2.Name = 'Loop'
+Loop_2.Font = Enum.Font.SourceSans
+Loop_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Loop_2.FontSize = Enum.FontSize.Size14
+Loop_2.Text = 'Looped'
+Loop_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loop_2.TextSize = 14
+Loop_2.BackgroundColor3 = Color3.fromRGB(61, 101, 61)
+Loop_2.BorderSizePixel = 0
+Loop_2.Position = UDim2.new(0.000000, 120.000000, 0.000000, 0.000000)
+Loop_2.Size = UDim2.new(0.000000, 50.000000, 0.000000, 20.000000)
+
+Title_2 = Instance.new('TextLabel', PopupFrame_3)
+Title_2.Name = 'Title'
+Title_2.Font = Enum.Font.SourceSans
+Title_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Title_2.FontSize = Enum.FontSize.Size14
+Title_2.Text = 'Edge\'s Audio Logger '
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 14
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1
+Title_2.Size = UDim2.new(0.000000, 360.000000, 0.000000, 20.000000)
+Title_2.ZIndex = 2
+
+All_2 = Instance.new('TextButton', PopupFrame_3)
+All_2.Name = 'All'
+All_2.Font = Enum.Font.SourceSans
+All_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+All_2.FontSize = Enum.FontSize.Size14
+All_2.Text = 'Game'
+All_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+All_2.TextSize = 14
+All_2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+All_2.BorderSizePixel = 0
+All_2.Position = UDim2.new(0.000000, 275.000000, 0.000000, 207.000000)
+All_2.Size = UDim2.new(0.000000, 80.000000, 0.000000, 20.000000)
+
+UICorner_15 = Instance.new('UICorner', All_2)
+UICorner_15.Name = 'UICorner'
+UICorner_15.CornerRadius = UDim.new(0.000000, 4.000000)
+
+Minimize_2 = Instance.new('TextButton', PopupFrame_3)
+Minimize_2.Name = 'Minimize'
+Minimize_2.Font = Enum.Font.SourceSans
+Minimize_2.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Minimize_2.FontSize = Enum.FontSize.Size14
+Minimize_2.Text = '_'
+Minimize_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_2.TextSize = 14
+Minimize_2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Minimize_2.BorderSizePixel = 0
+Minimize_2.Position = UDim2.new(0.000000, 20.000000, 0.000000, 0.000000)
+Minimize_2.Size = UDim2.new(0.000000, 20.000000, 0.000000, 20.000000)
+Minimize_2.ZIndex = 2
+
+UICorner_15 = Instance.new('UICorner', PopupFrame_3)
+UICorner_15.Name = 'UICorner'
+
+return ALNew_2
