@@ -98,6 +98,7 @@ Logs_2.Name = 'Logs'
 Logs_2.BottomImage = 'rbxasset://textures/blackBkg_square.png'
 Logs_2.CanvasSize = UDim2.new(0.000000, 0.000000, 0.000000, 0.000000)
 Logs_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
+Logs_2.ScrollingDirection = Enum.ScrollingDirection.Y
 Logs_2.MidImage = 'rbxasset://textures/blackBkg_square.png'
 Logs_2.ScrollBarThickness = 10
 Logs_2.TopImage = 'rbxasset://textures/blackBkg_square.png'
@@ -334,6 +335,7 @@ Info_2.Position = UDim2.new(0.000000, 5.000000, 0.000000, 25.000000)
 Info_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 230.000000)
 Info_2.Visible = false
 Info_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
+Info_2.ScrollingDirection = Enum.ScrollingDirection.Y
 
 Close_3 = Instance.new('TextButton', Info_2)
 Close_3.Name = 'Close'
