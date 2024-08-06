@@ -333,6 +333,7 @@ Info_2.BorderSizePixel = 0
 Info_2.Position = UDim2.new(0.000000, 5.000000, 0.000000, 25.000000)
 Info_2.Size = UDim2.new(0.000000, 265.000000, 0.000000, 230.000000)
 Info_2.Visible = false
+Info_2.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 Close_3 = Instance.new('TextButton', Info_2)
 Close_3.Name = 'Close'
